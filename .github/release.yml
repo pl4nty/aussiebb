@@ -1,5 +1,7 @@
 name: Release Docker image
-on: push
+on:
+  push:
+  workflow_dispatch:
 jobs:
   build_and_push:
     name: Build and push container to GitHub Packages
