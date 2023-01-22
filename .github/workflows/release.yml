@@ -28,6 +28,7 @@ jobs:
         tags: |
           type=ref,event=branch
           type=sha
+          0.3
 
     - name: Build and push
       uses: docker/build-push-action@v3
